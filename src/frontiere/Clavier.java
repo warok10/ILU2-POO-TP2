@@ -39,10 +39,4 @@ public class Clavier {
 		} while (!(entreeCorrecte && chiffre > 0));
 		return chiffre;
 	}
-	
-	public static String entrerChaine(String question) {
-		System.out.println(question);
-		return scan.next();
-	}
-
 }
